@@ -49,4 +49,8 @@ class ProfileViewViewModel: ObservableObject{
         }
         
     }
+    
+    deinit{
+        print("Deallocation called for Profile")
+    }
 }

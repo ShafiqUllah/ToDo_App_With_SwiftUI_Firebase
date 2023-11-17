@@ -31,4 +31,8 @@ class ToDoListItemViewViewModel: ObservableObject{
             .setData(itemCopy.asDictionary())
         
     }
+    
+    deinit {
+        print("Deallocation called for ToDoListItemViewViewModel")
+    }
 }

@@ -30,4 +30,8 @@ class MainViewViewModel:ObservableObject{
             
         return false
     }
+    
+    deinit {
+        print("deallocation called")
+    }
 }
